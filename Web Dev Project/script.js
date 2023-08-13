@@ -98,3 +98,8 @@ document.querySelectorAll(".element").forEach(function (element) {
       });
     });
   });
+
+//To get the real-time into the footer.
+`use strict`
+var datetime = new Date().toLocaleTimeString();
+  document.getElementById("time").textContent = datetime + " (IST)";
